@@ -1,0 +1,7 @@
+applications:
+- name: iot
+  path: target/iot-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  memory: 1024M
+  services:
+    - iot-db-hdi-container
